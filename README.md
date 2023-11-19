@@ -7,6 +7,8 @@ cnn_lstm.ipyb: for each segment, we conduct windowing operation without overlapp
 
 Confusion matrix comparision:
 LSTM: ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/348a7975-8f24-4c9b-9e17-8884604b4957)
+
 CNN: ![confusion matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/14b548ef-01a4-436e-a681-ace86a1ba88c)
+
 CNN+LSTM: ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/9cc39713-a43a-4d90-a91a-9c8ce00c46d7)
 
