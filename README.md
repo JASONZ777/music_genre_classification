@@ -15,4 +15,4 @@ CNN: 85.8% ![confusion matrix](https://github.com/JASONZ777/music_genre_classifi
 
 CNN+LSTM: 91.8% ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/9cc39713-a43a-4d90-a91a-9c8ce00c46d7)
 
-Future work: pitch extraction + Mel spectrum + CNNLSTM 
+Future work: pitch extraction + Mel spectrum + CNN-LSTM 
