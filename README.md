@@ -1,5 +1,5 @@
 # music_genre_classification
-This project is based on the GTZAN dataset. Two files are broken including jz00054 and reggae00086, so we replace .wav files by copying intact songs from the same music genre. To expand the dataset, each song is cut into 10 equal-length segment, thus creating 8000 samples from 8 different music genres.
+This project is based on the GTZAN dataset. Two files are broken including jz00054 and reggae00086, so we replace .wav files by copying intact songs from the same music genre. To expand the dataset, each song is cut into 10 equal-length segment, thus creating 10000 samples from 10 different music genres.
 
 read_wav.py: read .wav audio files and create the Mel spectrum for each song which lasts for 30s.
 
