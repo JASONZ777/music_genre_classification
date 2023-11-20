@@ -7,6 +7,8 @@ basic_model.ipyb: include data pre-processing, training and test dataset splitti
 
 cnn_lstm.ipyb: for each segment, we conduct windowing operation without overlapping to further divide each segment into many time-related images. For each image, CNN is used to extract feature vectors, and then a LSTM network is performed for classification.  
 
+pitch_mel_cnn_lstm.ipyb
+
 Confusion matrix comparision:
 
 LSTM: 85.7% ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/348a7975-8f24-4c9b-9e17-8884604b4957)
@@ -15,4 +17,3 @@ CNN: 85.8% ![confusion matrix](https://github.com/JASONZ777/music_genre_classifi
 
 CNN+LSTM: 91.8% ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/9cc39713-a43a-4d90-a91a-9c8ce00c46d7)
 
-Future work: pitch extraction + Mel spectrum + CNN-LSTM 
