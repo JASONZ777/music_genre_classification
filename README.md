@@ -7,7 +7,7 @@ basic_model.ipynb: include data pre-processing, training and test dataset splitt
 
 cnn_lstm.ipynb: for each segment, we conduct windowing operation without overlapping to further divide each segment into many time-related images. For each image, CNN is used to extract feature vectors, and then a LSTM network is performed for classification.  
 
-pitch_mel_cnn_lstm.ipynb: feature fusion of mel spectrums and pitch features. The pitch vector with mel feature vectors extracted from CNN are concatenated as inputs of LSTM. The performane is worse than that of the model without feature fusion. I think one of reasons is that 3s segment is not long enough, and pitches may show little similarity among 3s segments. However, we find classification accuracy of some specific genres is higher such as disco. 
+pitch_mel_cnn_lstm.ipynb: feature fusion of mel spectrums and pitch features. The pitch vector with mel feature vectors extracted from CNN are concatenated as inputs of LSTM. Howeer, the performane is worse than that of the model without feature fusion. I think one of reasons is that 3s segment is not long enough, and pitches may show little similarity among 3s segments.
 
 Confusion matrix comparision:
 
