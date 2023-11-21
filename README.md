@@ -11,11 +11,11 @@ pitch_mel_cnn_lstm.ipynb: feature fusion of mel spectrums and pitch features. Th
 
 Confusion matrix comparision:
 
-LSTM: 85.7% ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/348a7975-8f24-4c9b-9e17-8884604b4957){width=50% height=50%}
+LSTM: 85.7% ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/348a7975-8f24-4c9b-9e17-8884604b4957?raw=true&width=500&height=300)
 
-CNN: 85.8% ![confusion matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/14b548ef-01a4-436e-a681-ace86a1ba88c){width=50% height=50%}
+CNN: 85.8% ![confusion matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/14b548ef-01a4-436e-a681-ace86a1ba88c?raw=true&width=500&height=300)
 
-CNN-LSTM: 91.8% ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/9cc39713-a43a-4d90-a91a-9c8ce00c46d7){width=50% height=50%}
+CNN-LSTM: 91.8% ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/9cc39713-a43a-4d90-a91a-9c8ce00c46d7?raw=true&width=500&height=300)
 
-Pitch_MEL+CNN-LSTM: 90.0%  ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/183124dd-68ff-42f4-991f-a8da400ad6a9){width=50% height=50%}
+Pitch_MEL+CNN-LSTM: 90.0%  ![confusion_matrix](https://github.com/JASONZ777/music_genre_classification/assets/94668646/183124dd-68ff-42f4-991f-a8da400ad6a9?raw=true&width=500&height=300)
 
